@@ -1,0 +1,75 @@
+.card {
+    margin: 20px;
+    display: flex;
+    border-radius: 16px;
+    border-width: 2px;
+    border-color: aliceblue;
+    box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #0ba9ca, 0 0;
+    background-color: #17141d;
+    flex-direction: column;
+    min-width: 200px;
+    min-height: 350px;
+    max-height: 350px;
+    transition: 0.2s;
+}
+
+.card-text {
+    color: white;
+}
+
+.card-title {
+    color: white;
+}
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+img {
+    max-height: 200px;
+    max-width: 150px;
+    min-height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    object-fit: contain;
+}
+
+.card:hover {
+    transform: translateY(-1rem);
+    cursor: pointer;
+}
+
+.card:hover~.card{
+    transform: translateX(50px);
+}
+
+
+
+
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .card {
+        margin: 20px;
+        display: flex;
+        border-radius: 16px;
+        border-width: 2px;
+        border-color: aliceblue;
+        box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #0ba9ca, 0 0;
+        background-color: #17141d;
+        flex-direction: column;
+        min-width: 150px;
+        transition: 0.2s;
+        
+    }   
+
+    .card:not(:first-child) {
+        margin-left: 150px;
+    }
+    .card:first-child {
+        margin-left: 150px;
+    }
+} 

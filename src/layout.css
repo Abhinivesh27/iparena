@@ -1,0 +1,21 @@
+.layout {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .layout {
+        
+        display: block;
+        overflow-y: scroll;
+        width: 100%;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    
+} 
