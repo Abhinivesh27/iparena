@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/iparena/static/css/main.0133be6e.css",
-    "main.js": "/iparena/static/js/main.eb7801f1.js",
+    "main.js": "/iparena/static/js/main.79880c31.js",
     "index.html": "/iparena/index.html",
     "main.0133be6e.css.map": "/iparena/static/css/main.0133be6e.css.map",
-    "main.eb7801f1.js.map": "/iparena/static/js/main.eb7801f1.js.map"
+    "main.79880c31.js.map": "/iparena/static/js/main.79880c31.js.map"
   },
   "entrypoints": [
     "static/css/main.0133be6e.css",
-    "static/js/main.eb7801f1.js"
+    "static/js/main.79880c31.js"
   ]
 }
