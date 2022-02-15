@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ipsec-blog-dev/static/css/main.de00206e.css",
-    "main.js": "/ipsec-blog-dev/static/js/main.3dddfdeb.js",
-    "index.html": "/ipsec-blog-dev/index.html",
-    "main.de00206e.css.map": "/ipsec-blog-dev/static/css/main.de00206e.css.map",
-    "main.3dddfdeb.js.map": "/ipsec-blog-dev/static/js/main.3dddfdeb.js.map"
+    "main.css": "/iparena/static/css/main.de00206e.css",
+    "main.js": "/iparena/static/js/main.3dddfdeb.js",
+    "index.html": "/iparena/index.html",
+    "main.de00206e.css.map": "/iparena/static/css/main.de00206e.css.map",
+    "main.3dddfdeb.js.map": "/iparena/static/js/main.3dddfdeb.js.map"
   },
   "entrypoints": [
     "static/css/main.de00206e.css",
